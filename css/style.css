@@ -9,6 +9,22 @@
     text-align: justify;
     
 }
-/* .section2{
-    width: 100%;
-} */
+
+.box-size{
+    width: 326px;
+    height: 316px;
+}
+.divider-size{
+    width: 60px;
+    height: 2px;
+}
+@media (max-width: 1920px) {
+    .row-height{
+        height: 654px;
+    }
+}
+@media (max-width: 767px) {
+    .row-height{
+        height: 1280px;
+    }
+}
